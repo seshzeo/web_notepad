@@ -1,0 +1,96 @@
+h1, h2, h3, h4, h5, h6, input {
+    margin-top: 0px;
+    margin-block-end: 1em;
+    color: rgb(100, 51, 15);
+}
+
+a {
+    padding: 3px;
+}
+
+input {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+input, textarea {
+    border: none;
+    background-color: #ffffff00;
+    font-family: cursive;
+    max-height: 100%;
+}
+
+/* input:focus-visible, textarea:focus-visible {
+    border: 1px solid rgba(0, 0, 0, 0.171);
+} */
+
+p, textarea {
+    /* font-family: cursive; */
+    font-size: 16px;
+    /* white-space: inherit; */
+    word-wrap: break-word;
+    
+    max-width: 100%;
+}
+
+body {
+    font-family: cursive;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    font-family: cursive;
+    max-width: 150px;
+}
+
+button:hover {
+    background-color: rgb(192, 182, 43);;
+}
+
+button:active{
+    transform: scale(var(--btn-focus-scale,.97));
+}
+
+footer, nav {
+    min-height: 100px;
+    background-color: rgb(100, 51, 15);
+}
+
+.notepad {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(234, 222, 51);
+}
+
+.notepad_wrapper {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column {
+    display: block;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+    border: 1px solid #797431;
+    border-radius: 5px;
+    background-color: #d8cf57;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+.note_footer {
+    color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: row;
+}
+
